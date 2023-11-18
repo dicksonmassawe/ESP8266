@@ -1,7 +1,7 @@
 import network
 
-ssid = "HOT"  # Replace with your Wi-Fi network SSID
-password = "00001111"  # Replace with your Wi-Fi network password
+ssid = "**********"  # Replace with your Wi-Fi network SSID
+password = "***********"  # Replace with your Wi-Fi network password
 
 station = network.WLAN(network.STA_IF)
 station.active(True)

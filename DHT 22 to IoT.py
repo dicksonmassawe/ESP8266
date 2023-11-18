@@ -6,7 +6,7 @@ import dht
 from time import sleep
 
 # API keys for ThingSpeaks
-api_key = "716VJH7A021S5O6U"
+api_key = "***************"
 field_01 = "1" # Temperature
 field_02 = "2" # Humidity
 
@@ -14,8 +14,8 @@ field_02 = "2" # Humidity
 def get_connect():
 	
 	# Station name and password
-	ssid = "EPAL"
-	password = "electronics"
+	ssid = "*********"
+	password = "**************"
 	
 	sta = network.WLAN(network.STA_IF)
 	if not sta.isconnected():

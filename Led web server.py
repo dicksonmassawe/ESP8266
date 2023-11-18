@@ -8,8 +8,8 @@ led.off()
 
 # Configuring esp8266 as Access Point
 import network
-ssid = "ESP8266"
-password = "electronics"
+ssid = "*********"
+password = "*********"
 
 ap = network.WLAN(network.AP_IF)
 ap.active(True)
